@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="madhu.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script
+     src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            })
+        })
+    </script>
+</head>
+
+<body>
+<div class="container">
+    <nav>
+        <div class="logo">KAMARAJU SUNKARI</div>
+            <label id="icon">
+                <i class="fas fa-bars"></i>  
+            </label>
+        <ul class="menulist">
+            <li><a class="active" href="raju.html">Home</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="project.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <div class="col1">
+            <h2>Hello</h2>
+            <h3>A Bit About Me</h3>
+            <h6>I'm Kamaraju sunkari.<br> Current Undergraduate in Information Technology</h6>
+        </div>
+            <div class="three">
+                <a href="resume.html"><button type="button">Resume<img src="playstation_img/arrow.png" ></button></a>
+                <button type="button">Projects<img src="playstation_img/arrow.png" ></button>
+                <a href="contacts.html" ><button type="button">Contacts<img src="playstation_img/arrow.png" ></button></a>
+            </div> 
+    </div>
+</div>
+</body>
+       
+</html>
